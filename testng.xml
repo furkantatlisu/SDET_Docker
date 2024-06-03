@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/lenovo/workspace/DockerProjects/SDET_DockerWithChrome/src/test/java/session2">
+        <classes>
+            <class name="session2.Setup_DockerGrid"></class>
+            <class name="session2.Test1">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="session2.Test2">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="session2.Test3">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="session2.Test4">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
